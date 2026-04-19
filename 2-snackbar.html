@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snackbar</title>
+    <script type="module" crossorigin src="/goit-advancedjs-hw-02/assets/snackbar-BsbRUhsU.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-02/assets/iziToast.min-rkX_YU8T.js">
+    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-02/assets/iziToast-BFQQRvTW.css">
+    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-02/assets/snackbar-BmKebbq5.css">
+    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-02/assets/styles-C2cEukJn.css">
+  </head>
+  <body>
+    <main>
+      <a class="back-link" href="javascript:history.back()">← Back</a>
+      <div class="container">
+        <form class="form">
+          <label>
+            Delay (ms)
+            <input type="number" name="delay" required />
+          </label>
+
+          <fieldset>
+            <legend>State</legend>
+            <label>
+              <input type="radio" name="state" value="fulfilled" required />
+              Fulfilled
+            </label>
+            <label>
+              <input type="radio" name="state" value="rejected" required />
+              Rejected
+            </label>
+          </fieldset>
+
+          <button type="submit">Create notification</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
